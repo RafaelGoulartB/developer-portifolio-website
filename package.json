@@ -1,0 +1,30 @@
+{
+  "name": "developerportifolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "./node_modules/nodemon/bin/nodemon.js index",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafaelGoulartB/DeveloperPortifolio.git"
+  },
+  "keywords": [
+    "Node.js"
+  ],
+  "author": "Rafael Goulart",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RafaelGoulartB/DeveloperPortifolio/issues"
+  },
+  "homepage": "https://github.com/RafaelGoulartB/DeveloperPortifolio#readme",
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
