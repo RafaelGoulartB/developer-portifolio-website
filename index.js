@@ -10,4 +10,4 @@ app.set('view engine', 'handlebars')
 app.set('views', path.join(__dirname, 'views'))
 app.use(express.static(path.join(__dirname, 'public')))
 
-app.listen(env.PORT, () => console.log(`Server is running on https://localhost:${env.PORT}`))
+app.listen(env.PORT, () => console.log(`Server is running on http://localhost:${env.PORT}`))
