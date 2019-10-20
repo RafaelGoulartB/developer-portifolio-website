@@ -5,6 +5,8 @@ const path = require('path')
 const env = require('./config/env')[app.get('env')]
 const routes = require('./routes')
 
+app.locals.sitename = env.sitename
+
 //Routes
 app.use('/', routes())
 
