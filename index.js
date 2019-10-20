@@ -3,6 +3,10 @@ const app = express()
 const hbs = require('express-handlebars')
 const path = require('path')
 const env = require('./config/env')[app.get('env')]
+const routes = require('./routes')
+
+//Routes
+app.use('/', routes())
 
 // View Configs
 app.engine('handlebars', hbs())
