@@ -1,0 +1,131 @@
+#header {
+  height: 100vh;
+  position: relative;
+  color: #888888;
+}
+#header .container {
+  padding-top: 5em;
+}
+#header h1 {
+  font-family: 'Nunito Sans', sans-serif;
+  text-transform: uppercase;
+  color: #565656;
+  font-weight: 900;
+  font-size: 38px;
+  margin-top: 1.7em;
+  margin-bottom: 0.7em;
+}
+#header .msg {
+  width: 24%;
+}
+#header .welcome-msg {
+  padding-bottom: 8px;
+}
+#header .line-msg {
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+  width: 85%;
+  animation-name: createLine;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-timing-function: ease-in;
+}
+#header .desc {
+  width: 60%;
+  line-height: 1.5em;
+  margin-bottom: 5em;
+} 
+#header a {
+  text-decoration: none;
+  color: #888888;
+}
+#header .button {
+  font-family: 'Nunito Sans', sans-serif;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 50px rgba(0, 0, 0, .1);
+  padding: 12px 36px;
+  font-weight: 800;
+  color: #434343;
+  font-size: 12px;
+  letter-spacing: 1.1px;
+}
+#header .button:hover {
+  text-decoration: none;
+  box-shadow: 2px 2px 60px rgba(0, 0, 0, .2);
+
+}
+
+#header .social-links {
+  display: flex;
+  position: absolute;
+  width: 20%;
+  bottom: 50px;
+  justify-content: space-between;
+}
+#header .social-links a:hover {
+  text-decoration: underline;
+}
+/* Animações */
+@keyframes createLine {
+  0% {width: 0%;}
+  90% {width: 95%;}
+  100% {width: 90%;}
+}
+/* Change lang */
+#header .lang {
+  display: flex;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  align-items: center;
+}
+#header .lang {
+  font-size: 15px;
+}
+#header .lang .active-lang {
+  background-color: #fafafa;
+  color: #4d4c4c;
+  box-shadow: none;
+  border: none;
+  font-size: 15px;
+}
+#header .lang .desactive-lang {
+  background-color: #fafafa;
+  color: #999999;
+  box-shadow: none;
+  border: none;
+  font-size: 14px;
+}
+
+@media(max-width: 1100px) {
+  #header .social-links {
+    width: 40%;
+  }
+}
+@media(max-width: 800px) {
+  #header .container {
+    padding-top: 2em;
+  }
+  #header h1 {
+    font-size: 24px;
+  }
+  #header .msg {
+    width: 40%;
+    font-size: 14px;
+  }
+  #header .desc {
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 3em;
+  }
+  #header .social-links {
+    width: 60%;
+    justify-content: space-between;
+    font-size: 13px;
+    bottom: 50px;
+    height: 65px;
+  }
+  #header .social-links a {
+    text-decoration: underline;
+  }
+}

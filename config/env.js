@@ -1,10 +1,10 @@
 module.exports = {
   production: {
     'PORT': 80,
-    'sitename': 'Rafael Goulart',
+    'sitename': 'Rafael Freelancer',
   },
   development: {
     'PORT': 3000,
-    'sitename': 'Rafael Goulart [Development]',
+    'sitename': 'Rafael Freelancer [Development]',
   }
 }

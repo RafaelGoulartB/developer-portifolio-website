@@ -1,0 +1,23 @@
+<section id="contact" id="four">
+  <div class="container">
+    <h2 class="title-section">{{ texts.contact.title }}</h2>
+    <p class="desc">{{ texts.contact.desc }}</p>
+    <form action="/sendemail" method="POST">
+      <div>
+        <input name="name" type="text" required placeholder="{{ texts.contact.form.name_placeholder }}">
+        <input name="from" type="email" required placeholder="{{ texts.contact.form.email_placeholder }}">
+        <input name="to" type="hidden" value="rafaelgoulartb@gmail.com">
+        <input name="subject" type="hidden" value="Work from website">
+      </div>
+      <textarea name="message" required cols="30" rows="5" placeholder="{{ texts.contact.form.msg_placeholder }}"></textarea>
+      <input type="submit" value="{{ texts.contact.form.button_submit }}">
+    </form>
+
+    <div class="social-links desktop">
+      <p class="email">rafagoulartb@gmail.com</p>
+      <a href="https://www.github.com/RafaelGoulartB" target="_blank" class="github">Github</a>
+      <a href="https://www.linkedin.com/in/rafael-goulart-389b3b176/" target="_blank" class="linkedin">Linkedin</a>
+    </div>
+  </div>
+
+</section>

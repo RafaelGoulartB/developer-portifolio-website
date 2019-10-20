@@ -5,9 +5,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>{{sitename}} - {{title}}</title>
-  <link rel="stylesheet" href="/css/reset.css">
+  {{!-- SEO --}}
+  <meta name="description" content="Rafael Goulart Freelancer, working as FullStack developer, Front and Back end also working with mobile devoloper using React Native">
+  <meta name="author" content="Rafael Goulart - Freelancer">
+    {{!-- Google+ / Schema.org --}}
+  <meta itemprop="name" content="Rafael Goulart - Freelancer">
+  <meta itemprop="description" content="Rafael Goulart Freelancer, working as FullStack developer, Front and Back end also working with mobile devoloper using React Native">
+  <meta itemprop="image" content="https://www.domian.com/img/img-desc.png">
+    {{!-- Open Graph Facebook --}}
+  <meta property="og:title" content="FullStack - Freelancer">
+  <meta property="og:description" content="Rafael Goulart Freelancer, working as FullStack developer, Front and Back end also working with mobile devoloper using React Native"/>
+  <meta property="og:site_name" content="Fullstack Developer"/>
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://www.domian.com/img/img-desc.png">
+    {{!-- Twitter --}}
+  <meta name="twitter:title" content="FullStack - Freelancer">
+  <meta name="twitter:description" content="Rafael Goulart Freelancer, working as FullStack developer, Front and Back end also working with mobile devoloper using React Native">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:image" content="https://www.domian.com/img/img-desc.png">
+  {{!-- CSS --}}
+  <link rel="stylesheet" href="/css/utils/reset.css">
+  <link rel="stylesheet" href="/css/utils/global.css">
+    {{!-- Home --}}
+  <link rel="stylesheet" href="/css/header.css">
+  <link rel="stylesheet" href="/css/services.css">
+  <link rel="stylesheet" href="/css/my-work.css">
+  <link rel="stylesheet" href="/css/contact.css">
+    {{!-- All Work --}}
+  <link rel="stylesheet" href="/css/works/style.css">
+  {{!-- Fonts  --}}
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700,800,900|Playfair+Display:400,700" rel="stylesheet">
 </head>
 <body>
   {{{body}}}
+
+  <script src="/js/my-services.js"></script>
+  <script src="/js/swinch.min.js"></script>
+  <script src="/js/slider-onepage-scroll.js"></script>
+  <script src="/js/slider-work.js"></script>
 </body>
 </html>

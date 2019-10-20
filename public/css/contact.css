@@ -1,0 +1,124 @@
+#contact {
+  background-color: #1a1a1a;
+  position: relative;
+}
+#contact .container {
+  padding-top: 5em;
+  color: #fefefe;
+}
+#contact .title-section {
+  color: #fefefe;
+}
+#contact .desc {
+  width: 60%;
+  font-size: 17px;
+  line-height: 1.5em;
+  margin-bottom: 3em;
+}
+#contact form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+#contact form div {
+  display: flex;
+  justify-content: space-between;
+}
+#contact form div input {
+  width: 45%;
+}
+#contact form input {
+  border: none;
+  padding-top: 4px;
+  padding-left: 4px;
+  padding-bottom: 8px;
+  background-color: transparent;
+  color: #ffffff;
+  border-bottom: 1px solid #676767;
+}
+#contact form input[type=submit] {
+  margin-top: 5em;
+  background-color: #262626;
+  border: none;
+  box-shadow: 1px 1px 5px rgba(0,0,0,.5);
+  width: 190px;
+  height: 35px;
+  padding-top: 6px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#contact form input[type=submit]:active {
+  box-shadow: 5px 5px 5px rgba(0,0,0,.6);
+}
+#contact form textarea {
+  margin-top: 4em;
+  border: none;
+  padding-top: 4px;
+  padding-left: 4px;
+  padding-bottom: 8px;
+  background-color: transparent;
+  color: #ffffff;
+  border-bottom: 1px solid #676767;
+}
+/* Social links */
+#contact .social-links {
+  position: absolute;
+  bottom: 15px;
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  color: #888888;
+}
+#contact a {
+  text-decoration: none;
+  color: #888888;
+}
+#contact .social-links a:hover {
+  text-decoration: underline;
+}
+
+@media(max-width: 1000px) {
+  #contact .social-links {
+    width: 60%;
+    margin-top: 5em;
+    font-size: 14px;
+  }
+  #contact form {
+    width: 100%;
+  }
+  #contact .desc {
+    width: 100%;
+  }
+}
+
+@media(max-width: 400px) { 
+  #contact .container {
+    padding-top: 3em;
+  }
+  #contact .social-links {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    justify-content: space-between;
+  }
+  #contact .social-links a {
+    text-decoration: underline;
+    margin-top: 5px;
+  }
+  #contact form {
+    width: 100%;
+  }
+  #contact .desc {
+    font-size: 14px;
+    width: 100%;
+  }
+  #contact .title-section {
+    font-size: 22px;
+  }
+  #contact form textarea {
+    margin-top: 3em;
+  }
+  #contact form input[type=submit] {
+    margin-top: 3em;
+  }
+}

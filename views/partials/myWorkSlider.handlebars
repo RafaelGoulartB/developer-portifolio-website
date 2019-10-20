@@ -1,0 +1,51 @@
+<div class="container">
+  <h2 class="title-section">{{ texts.my_work.title }}</h2>
+</div>
+{{!-- Slider --}}
+<div id="slider">
+  <div id="slider-pre" class="item-slider item-slider1"></div>
+  <button class="btn-left" onclick="previous_slider()"><</button>
+  <div class="main-item">
+    <div id="slider-current" class="item-slider item-slider2"></div>
+    <div class="label">
+      <div class="texts">
+        <div class="project-label">
+            <p class="title-label">{{ texts.my_work.labels_slider.projectname }}</p>
+            <p class="desc-label" id="project-name-label"></p>
+        </div>
+        <div class="date-label">
+            <p class="title-label">{{ texts.my_work.labels_slider.date }}</p>
+            <p class="desc-label" id="date-label"></p>
+        </div>
+        <div class="work-label">
+            <p class="title-label">{{ texts.my_work.labels_slider.work }}</p>
+            <p class="desc-label" id="work-label"></p>
+        </div>
+        <div class="type-label">
+            <p class="title-label">{{ texts.my_work.labels_slider.type }}</p>
+            <p class="desc-label" id="type-label"></p>
+        </div>
+      </div>
+      <a class="btn" id="link-label" href="https://github.com/RafaelGoulartB" target="_blank">{{ texts.my_work.labels_slider.buttonsp }}</a>
+    </div>
+  </div>
+  <button class="btn-right" onclick="next_slider()">></button>
+  <div id="slider-next" class="item-slider item-slider3"></div>
+</div>
+{{!-- Mobile --}}
+<div class="mobile">
+    <div class="works">
+        <a href="https://rafaelgoulartb.github.io/Ecommerce-Quantum/" target="_blank">
+          <img src="/img/works/quantom.jpg" alt="Ecommercer Quantom, developed using Node.js, HTML, CSS">
+        </a>
+        <a href="https://rafaelgoulartb.github.io/Memesan-LandingPage/" target="_blank">
+          <img src="/img/works/memesum.jpg" alt="Memesum Landing page, developed using HTML, CSS">
+        </a>
+        <a href="https://rafaelgoulartb.github.io/Marketika-LandingPage/" target="_blank">
+          <img src="/img/works/marketica.jpg" alt="Memesum Landing page, developed using HTML, CSS">
+        </a>
+      </div>
+</div>
+<div class="container">
+  <a href="/all-work" class="btn-see">{{ texts.my_work.button_saw }}</a>
+</div>
