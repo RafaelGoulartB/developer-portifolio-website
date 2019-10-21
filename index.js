@@ -27,6 +27,16 @@ app.use((req, res, next) => {
 //Routes
 app.use('/', routes())
 
+//Errors
+app.use((err, req, res, next) => {
+  console.error(err)
+  return res.status(500).render('errors/500')
+})
+app.use((err, req, res, next) => {
+  console.error(err)
+  return res.status(404).render('errors/404')
+})
+
 // View Configs
 app.engine('handlebars', hbs())
 app.set('view engine', 'handlebars')
