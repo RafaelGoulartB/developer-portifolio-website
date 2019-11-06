@@ -16,6 +16,8 @@
 
 > Developer Portifolio made using Node.js and Express
 
+![Project Image](https://github.com/RafaelGoulartB/DeveloperPortifolio/blob/master/DeveloperPortifolio.png)
+
 ### 🏠 [Homepage](https://github.com/RafaelGoulartB/DeveloperPortifolio#readme)
 
 ## Install
