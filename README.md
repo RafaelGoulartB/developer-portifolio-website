@@ -16,8 +16,6 @@
 
 > Developer Portifolio made using Node.js and Express
 
-![Project Image](https://github.com/RafaelGoulartB/DeveloperPortifolio/blob/master/DeveloperPortifolio.png)
-
 ### 🏠 [Homepage](https://github.com/RafaelGoulartB/DeveloperPortifolio#readme)
 
 ## Install
@@ -56,6 +54,8 @@ Give a ⭐️ if this project helped you!
 
 Copyright © 2019 [Rafael Goulart](https://github.com/RafaelGoulartB).<br />
 This project is [MIT](https://github.com/RafaelGoulartB/DeveloperPortifolio/blob/master/LICENSE) licensed.
+
+![Project Image](https://github.com/RafaelGoulartB/DeveloperPortifolio/blob/master/DeveloperPortifolio.png)
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
