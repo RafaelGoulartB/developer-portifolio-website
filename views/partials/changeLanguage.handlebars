@@ -1,21 +1,19 @@
-<script id="entry-template" type="text/x-handlebars-template">
-  <div class="lang">
-    <form action="/lang" method="POST">
-      <input type="hidden" name="lang" value="pt_br">
-      {{#if lang == 'pt_br'}}
-        <input type="submit" class="active-lang" value="PT"></input>
-      {{#else}}
-        <input type="submit" class="desactive-lang" value="PT"></input>
-      {{/if}}
-    </form>
-    <p>/</p>
-    <form action="/" method="post">
-      <input type="hidden" name="lang" value="en_us">
-      {{#if lang == 'en_us'}}
-        <input type="submit" class="active-lang" value="EN"></input>
-      {{#else}}
-          <input type="submit" class="desactive-lang" value="EN"></input>
-      {{/if}}
-    </form>
-  </div>
-</script>
+<div class="lang">
+  <form action="/lang" method="POST">
+    <input type="hidden" name="lang" value="pt_br">
+    {{!-- {{#if lang == 'pt_br'}} --}}
+      <input type="submit" class="active-lang" value="PT"></input>
+    {{!-- {{#else}} --}}
+      {{!-- <input type="submit" class="desactive-lang" value="PT"></input> --}}
+    {{!-- {{/if}} --}}
+  </form>
+  <p>/</p>
+  <form action="/lang" method="post">
+    <input type="hidden" name="lang" value="en_us">
+    {{!-- {{#if lang == 'en_us'}} --}}
+      <input type="submit" class="active-lang" value="EN"></input>
+    {{!-- {{#else}} --}}
+        {{!-- <input type="submit" class="desactive-lang" value="EN"></input> --}}
+    {{!-- {{/if}} --}}
+  </form>
+</div>
