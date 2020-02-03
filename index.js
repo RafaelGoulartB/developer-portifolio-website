@@ -3,11 +3,11 @@ const app = express()
 const hbs = require('express-handlebars')
 const path = require('path')
 const cookieSession = require('cookie-session')
-const env = require('./config/env')[app.get('env')]
 const routes = require('./routes')
+require('dotenv/config')
 
 // Global Variable
-app.locals.sitename = env.sitename
+app.locals.sitename = process.env.SITENAME || 'Rafael Freelancer [DEVELOPMENT]'
 
 app.use(express.urlencoded({extended:true}))
 app.use(express.json())
@@ -43,4 +43,4 @@ app.set('view engine', 'handlebars')
 app.set('views', path.join(__dirname, 'views'))
 app.use(express.static(path.join(__dirname, 'public')))
 
-app.listen(env.PORT, () => console.log(`Server is running on http://localhost:${env.PORT}`))
+app.listen(process.env.PORT || 3000, () => console.log(`Server is running on http://localhost:${process.env.PORT || 3000}`))
