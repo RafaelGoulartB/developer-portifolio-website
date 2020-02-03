@@ -16,24 +16,29 @@
 
 > Developer Portifolio made using Node.js and Express
 
-### 🏠 [Homepage](https://github.com/RafaelGoulartB/DeveloperPortifolio#readme)
+## Run the project local
+1. Install the dependencies:  
+[Node.js](https://nodejs.org/en/)
 
-## Install
+2. Clone the project and install the dependencies:   
+```
 
-```sh
+git clone https://github.com/RafaelGoulartB/DeveloperPortifolio.git
+cd DeveloperPortifolio/
 npm install
+
 ```
 
-## Usage
+3. Run
 
-```sh
-npm run start
+Developement Mode
 ```
-
-## Run tests
-
-```sh
 npm run dev
+```
+
+Production Mode
+```
+npm start
 ```
 
 ## Author
@@ -54,8 +59,3 @@ Give a ⭐️ if this project helped you!
 
 Copyright © 2019 [Rafael Goulart](https://github.com/RafaelGoulartB).<br />
 This project is [MIT](https://github.com/RafaelGoulartB/DeveloperPortifolio/blob/master/LICENSE) licensed.
-
-![Project Image](https://github.com/RafaelGoulartB/DeveloperPortifolio/blob/master/DeveloperPortifolio.png)
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
