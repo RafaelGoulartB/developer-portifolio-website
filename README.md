@@ -17,10 +17,10 @@
 > Developer Portifolio made using Node.js and Express
 
 ## Run the project local
-1. **Install the dependencies:**
+1. Install the dependencies:      
 [Node.js](https://nodejs.org/en/)
 
-2. **Clone the project and install the dependencies:**
+2. Clone the project and install the dependencies:
 ```
 
 git clone https://github.com/RafaelGoulartB/DeveloperPortifolio.git
@@ -29,7 +29,7 @@ npm install
 
 ```
 
-3. **Run**
+3. Run
 
 Developement Mode
 ```
@@ -40,6 +40,8 @@ Production Mode
 ```
 npm start
 ```
+
+-----
 
 ## Author
 
