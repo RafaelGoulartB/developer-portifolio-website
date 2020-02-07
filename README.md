@@ -16,6 +16,8 @@
 
 > Developer Portifolio made using Node.js and Express
 
+-----
+
 ## Run the project local
 1. Install the dependencies:      
 [Node.js](https://nodejs.org/en/)
