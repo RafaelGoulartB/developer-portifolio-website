@@ -1,0 +1,9 @@
+.error-page .error-msg {
+  font-family: 'Nunito Sans', sans-serif;
+  text-transform: uppercase;
+  color: #565656;
+  font-weight: 900;
+  font-size: 38px;
+  margin-top: 1.7em;
+  margin-bottom: 0.7em;
+}

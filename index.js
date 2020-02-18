@@ -27,20 +27,19 @@ app.use((req, res, next) => {
 //Routes
 app.use('/', routes())
 
-//Errors
-app.use((err, req, res, next) => {
-  console.error(err)
-  return res.status(500).render('errors/500')
-})
-app.use((err, req, res, next) => {
-  console.error(err)
-  return res.status(404).render('errors/404')
-})
-
 // View Configs
 app.engine('handlebars', hbs())
 app.set('view engine', 'handlebars')
 app.set('views', path.join(__dirname, 'views'))
 app.use(express.static(path.join(__dirname, 'public')))
+
+// Handle 404
+app.use(function(req, res) {
+  res.render('errors/404');
+});
+// Handle 500
+app.use(function(error, req, res, next) {
+  res.render(res.render('errors/500'));
+});
 
 app.listen(process.env.PORT || 3000, () => console.log(`Server is running on http://localhost:${process.env.PORT || 3000}`))
