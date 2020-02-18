@@ -21,7 +21,7 @@ main .works {
   justify-content: space-between;
   position: relative;
 }
-main .works a {  
+main .works a {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -40,6 +40,12 @@ main .works a img {
   width: 99%;
 }
 
+@media(min-width: 1921px) {
+  main .works a {
+    width: 21%;
+    margin-bottom: 4em;
+  }
+}
 @media(max-width:1100px) {
   main .container {
     width: 90vw;

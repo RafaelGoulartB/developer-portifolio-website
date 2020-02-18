@@ -28,6 +28,10 @@ section {
   margin-bottom: 1.5em;
 }
 @media(max-width: 800px) {
+  .container {
+    margin-left:  1.5em;
+    margin-right: 1.5em;
+  }
   .mobile {
     display: block;
   }
