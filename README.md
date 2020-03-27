@@ -14,9 +14,18 @@
   </a>
 </p>
 
-> Developer Portifolio made using Node.js and Express
+> Portifolio to Developer that support switch between two languages
 
 -----
+
+## 💻 Technologies
+This project was made using the follow technologies:
+<ul>
+  <li><a href="https://nodejs.org/en/">Node.js</a></li>
+  <li><a href="https://expressjs.com/">Express</a></li>
+  <li><a href="https://www.npmjs.com/package/express-handlebars">Express Handlebars</a></li>
+  <li><a href="https://eslint.org/">Eslint</a></li>
+</ul>
 
 ## Run the project local
 1. Install the dependencies:      
